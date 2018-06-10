@@ -1,4 +1,4 @@
-FROM jenkinsxio/builder-base:0.0.311
+FROM jenkinsxio/builder-base:0.0.312
 
 RUN yum update  -y
 RUN yum install -y python python-libs python-devel python-pip
